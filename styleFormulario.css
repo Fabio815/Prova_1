@@ -1,0 +1,22 @@
+.container_principal
+{
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+.header
+{
+    grid-area: header;
+}
+.main
+{
+    grid-area: main;
+    height: 100vh;
+}
+.footer
+{
+    grid-area: footer;
+}
