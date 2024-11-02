@@ -18,17 +18,21 @@
             <div id="header_branco"></div>
         </header>
         
-        <main class="main">
-            <h2 id="h2_comentario">Caixa de comentários</h2>
-            <form action="enviar" method="post">
-                <input required type="text" placeholder="Nome">
-                <input required type="text" placeholder="Sobrenome">
-                <input required type="email" placeholder="E-mail">
-                <input required type="number" placeholder="Número">
-                <button>Enviar</button>
-            </form>
-        </main>
-    
+        <div class="div_main">
+            <main class="main">
+                <h2 id="h2_comentario">Caixa de comentários</h2>
+                <form action="enviar" method="post">
+                    <input required type="text" placeholder="Nome">
+                    <input required type="text" placeholder="Sobrenome">
+                    <input required type="email" placeholder="E-mail">
+                    <input required type="tel" placeholder="Número">
+                    <p>Comentário</p>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+                    <button>Enviar</button>
+                </form>
+            </main>
+        </div>
+        <br>
     
         <footer class="footer">
             <a href="formularioPerguntas.html">Perguntas</a>
