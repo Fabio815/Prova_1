@@ -1,0 +1,30 @@
+.main_descricao
+{
+    display: grid;
+    grid-template-areas: 
+    'main_descricao_div lista_igredientes'
+    'main_descricao_botao main_descricao_botao';
+}
+#lista_igredientes
+{
+    grid-area: lista_igredientes;
+}
+#main_descricao_div
+{
+    grid-area: main_descricao_div;
+}
+#main_descricao_botao
+{
+    grid-area: main_descricao_botao;
+    display: flex;
+    justify-content: end;
+}
+button
+{
+    height: 8vh;
+    width: 12vh;
+    border-radius: 4px;
+    background-color: rgb(190, 250, 99);
+    border: 1px outset rgb(190, 250, 99);
+    margin-bottom: 20px;
+}
